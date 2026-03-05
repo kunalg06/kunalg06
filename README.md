@@ -98,8 +98,12 @@ I've delivered production AI systems at **Quantiphi** and **Winjit Technologies*
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kunalg06&show_icons=true&theme=tokyonight&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunalg06&layout=compact&theme=tokyonight" height="165" />
+  <img src="https://streak-stats.demolab.com?user=kunalg06&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunalg06&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kunalg06&theme=tokyonight&no-frame=true&row=1&column=6" />
 </p>
 
 ---
