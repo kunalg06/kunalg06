@@ -47,6 +47,12 @@ I've delivered production AI systems at **Quantiphi** and **Winjit Technologies*
 - Section-aware extraction for skills, experience, and education
 - FastAPI batch-processing API
 
+### 🎯 [hire-signal](https://github.com/kunalg06/hire-signal)
+> AI-powered hire-readiness platform that evaluates candidates on real-world AI-assisted coding competency, not just algorithmic recall
+- Candidates solve challenges in an isolated Docker + browser VS Code environment with Gemini CLI access
+- Scores AI-collaboration quality across 8 dimensions (problem decomposition, debugging with AI, architecture decisions, and more) with Python-enforced hire thresholds
+- Employer dashboard with radar-chart candidate comparison, human override/flag workflow, and full audit trail
+
 ---
 
 ## 🛠️ Tech Stack
