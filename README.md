@@ -103,6 +103,7 @@ Previously at **Quantiphi**, where I delivered NLP automation pipelines that imp
 
 ## 📜 Certifications
 
+- ☁️ AWS Certified Developer – Associate
 - 🤖 IBM Generative AI for Data Scientists Specialization — Coursera
 - 📈 Structuring Machine Learning Projects
 - 🐍 HackerRank Certified Python
