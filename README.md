@@ -15,7 +15,7 @@
 
 🎓 **MSc Artificial Intelligence (Distinction)** — Sheffield Hallam University, UK
 💼 **4+ years** of end-to-end ML engineering experience across NLP, computer vision, and cloud-deployed inference
-🔍 Currently building **Generative AI and Agentic AI systems** at Synechron — LLM orchestration, multi-agent workflows (LangGraph, MCP), and enterprise-scale AI for financial services clients
+🔍 Currently building **Generative AI and Agentic AI systems** at Synechron — LLM orchestration, MCP-based tool integration, and enterprise-scale AI for financial services clients
 📍 Based in **Bengaluru, India** | 🗺️ **Open to senior AI/Data Science roles across the UK, Europe, UAE, Canada, and New Zealand — remote or relocation**
 
 Previously at **Quantiphi**, where I delivered NLP automation pipelines that improved claim adjudication efficiency by 80%, and at **Winjit Technologies**, where I built computer vision systems contributing to ~50% revenue growth for enterprise clients including Mahindra & Mahindra.
@@ -23,6 +23,13 @@ Previously at **Quantiphi**, where I delivered NLP automation pipelines that imp
 ---
 
 ## 🚀 Featured Projects
+
+### 🇬🇧 [AI Sponsorship Job Acquisition Platform](https://github.com/kunalg06/AI-Sponsorship-Job-Acquisition-Platform)
+> Personal automation pipeline for a UK Skilled Worker sponsorship search — reads public government data and drafts content; every risky action (applying, sending, messaging) stays a manual human click by design
+- MCP server (`src/mcp_server/`) exposing the pipeline as four tools — `check_sponsor`, `check_salary_threshold`, `track_application`, `list_applications` — so an MCP client like Claude Desktop can query and update the search conversationally, verified end-to-end against a real client
+- Thin-wrapper MCP architecture: zero business logic in the tool layer, connection-per-call SQLite access, and project-root-anchored paths — built to survive an MCP client spawning the server from an arbitrary working directory
+- UK sponsor-register ingestion with name normalization (trading names, LTD/LIMITED/LLP/PLC suffix variants) against the real gov.uk register, plus SOC-code salary-threshold checks against actual government thresholds
+- Documented spec-and-review discipline: intent contract, I/O edge-case matrix, and an adversarial review triage log per feature; 122 passing tests
 
 ### 🎯 [hire-signal](https://github.com/kunalg06/hire-signal)
 > Full-stack hiring-evaluation platform that assesses candidates on real-world AI-assisted coding competency, not just algorithmic recall
@@ -59,6 +66,7 @@ Previously at **Quantiphi**, where I delivered NLP automation pipelines that imp
 ## 🛠️ Tech Stack
 
 **LLM & Agentic AI**
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=flat&logo=anthropic&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![SpaCy](https://img.shields.io/badge/SpaCy-09A3D5?style=flat&logo=spacy&logoColor=white)
